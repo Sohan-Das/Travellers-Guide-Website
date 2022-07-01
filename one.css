@@ -1,0 +1,124 @@
+
+body{
+
+	background-color: light-gray;
+
+}
+
+h1{
+	text-align: center;
+	font-size: 80px;
+	color: black;
+}
+
+.nav{
+	margin-top: 15px;
+	overflow: hidden ;
+	background-color: black ;
+	display: inline-flex;
+	color: white;
+	width: 97.5%;
+	margin-left: 6px;
+	padding: 18px  18px  12px  18px;
+	justify-content: space-between;
+}
+.nav a{
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	float: left;
+	border-radius: 18px;
+	padding: 10px 28px;
+	font-size: 1.4em;
+	text-decoration: none;
+}
+
+.nav a:hover {
+
+	background-color:gray;
+
+}
+
+.nav-right{
+	float: right;
+	 
+
+}
+
+.con{
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	margin: auto;
+	width: 80%;
+	font-size: 2em;
+}
+.con a{
+	flex:1;
+	flex-basis:300px;
+	height: 42px;
+	background-color: black;
+	color:white;
+	padding:30px;
+	margin:20px;
+	border-radius: 30px;
+	text-decoration:none;
+}
+/*.margin-giver{
+	/*display:table-cell;
+	/*display-auto-flow: column;
+	border: 2px solid gray;
+	color: white;
+	background-color: black;	
+	padding: 28px;
+	margin: 100px 200px 100px 200px;
+	text-decoration: none;
+
+	
+}*/
+.con a:hover{
+	background-color: lightgray;
+	color: darkred;
+	/*font-size: 1.5em;*/
+}
+
+
+.inner{
+  padding-top: 150px;
+  padding-bottom: 144px;
+  text-align: center;
+  margin:auto;
+  color:blue;
+  font-size: 1.5em;
+}
+
+.content{
+	margin-left:100px;
+	margin-right:100px;
+}
+
+input[type="submit"]{
+	padding:10px;
+	font-size: 1.2em;
+
+}
+
+input[type="text"]{
+	padding:8px 20px;
+	width:60%;
+}
+textarea{
+	padding:8px 20px;
+	width:80%;
+}
+
+.comment{	
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-right: 500px;
+}
+
+
+

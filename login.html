@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login</title>
+	<style>
+		body{
+			background:linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(bg_images/login-image.jpg);
+			
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 1600px 880px;
+			}
+			
+	#st-login{
+		text-align: center;
+		color: black;
+		border-radius: 40px;
+		height: 460px;
+		background-color:rgba(211,211,211,0.5);
+		padding-top: 80px;
+		font-size: 1.5em;
+		margin: auto;
+		margin-top:80px;
+		width: 50%;
+	}
+	#st-login:hover{
+		border:4px solid black;
+	}
+	button{
+		font-size: 1.5em;
+	}
+	input[type="text"]{
+		padding: 8px 20px;
+		width:50%;
+	}
+	input[type="submit"]{
+		padding:10px;
+		font-size: 1.1em;
+	}
+	
+	</style>
+</head>
+<body>
+	<form action="login.php" method="post">
+	<div id="st-login">
+		<h2>LOGIN</h2>
+		<h4>Welcome Back ! Login To Your Traveller's Guide Account</h4>
+		<input type="text" id="Email" name ="email" placeholder="Email" required><br><br>
+		<input type="text" id="password" name ="password" placeholder="Password" required><br><br>
+		<input type="submit" id="login" name="login"	value=" Login " ><br><br><br>
+		<div>Don't have an Account ? <a href="register.html" style="color:white;background-color: black;border-radius: 8px;padding:12px;">Sign up</a></div>
+	</div>
+	</form>
+</body>
+</html>
